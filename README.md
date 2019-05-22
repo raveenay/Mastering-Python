@@ -46,7 +46,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ### Related products <Other books you may enjoy>
 * Mastering Machine Learning with R - Third Edition [[Packt]](https://prod.packtpub.com/in/big-data-and-business-intelligence/mastering-machine-learning-r-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789618006) [[Amazon]](https://www.amazon.com/dp/1789618002)
 
-## Get to Know the Author(s)
+## Get to Know the Author
 **Iván Pastor Sanz**
 is a lead data scientist and machine learning enthusiast with extensive experience in finance, risk management, and credit risk modeling. Iván has always endeavored to find solutions to make banking more comprehensible, accessible, and fair. Thus, in his thesis to obtain his PhD in economics, Iván tried to identify the origins of the 2008 financial crisis and suggest ways to avoid a similar crisis in the future.
 
