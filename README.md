@@ -24,10 +24,9 @@ All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-if (test expression)
-{
-  Statement upon condition is true
-}
+classes<-as.data.frame(sapply(Model_database, class))
+classes<-cbind(colnames(Model_database),classes)
+colnames(classes)<-c("variable","class")
 ```
 
 **Following is what you need for this book:**
@@ -36,37 +35,16 @@ With the following software and hardware list you can run all code files present
 
 ### Software and Hardware List
 
-| Chapter  | Software required                   | OS required                        |
-| -------- | ------------------------------------| -----------------------------------|
-| 1        | R version 3.3.0                     | Windows, Mac OS X, and Linux (Any) |
-| 2        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 3        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 4        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 5        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 6        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 7        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 8        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 9        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 10        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-|11        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 12        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 13        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 14        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 15        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
+| Chapter  | Software required                        | OS required                  |
+| -------- | -----------------------------------------| -----------------------------|
+| 1-7      | R version 3.5.1, Rstudio Version 1.1.456 | Windows, Linux (Any)         |
 
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](http://www.packtpub.com/sites/default/files/downloads/9781838644338_ColorImages.pdf).
 
-## Code in Action
-
-Click on the following link to see the Code in Action:
-
-[Placeholder link](www.youtube.com/URL)
 
 ### Related products <Other books you may enjoy>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
-
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Mastering Machine Learning with R - Third Edition [[Packt]](https://prod.packtpub.com/in/big-data-and-business-intelligence/mastering-machine-learning-r-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789618006) [[Amazon]](https://www.amazon.com/dp/1789618002)
 
 ## Get to Know the Author(s)
 **Iván Pastor Sanz**
